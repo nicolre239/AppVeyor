@@ -14,17 +14,4 @@ matrix:
     
 test_script:
   vstest.console ./Debug/UKPO_2_TESTS.dll
-    
-deploy:
-    # выкладываем tagged-коммиты на GitHub Releases:
-    description: '$(APPVEYOR_REPO_TAG_NAME)'
-    provider: GitHub
-
-    auth_token:
-        secure: <encrypted-github-token>
-
-    artifact: package_name
-    force_update: true
-
-    on:
-        appveyor_repo_tag: false
+  
