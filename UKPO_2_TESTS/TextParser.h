@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include "../../UKPO_2/UKPO_2/Unit.h"
+#include "Unit.h"
 #pragma once
 class TextParser
 {

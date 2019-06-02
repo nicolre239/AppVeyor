@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "../../UKPO_2/UKPO_2/Unit.h"
+#include "Unit.h"
 #include <string>
 
 Unit::Unit (std::string part, std::string rightShift, std::string leftShift)
