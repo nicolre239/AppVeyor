@@ -17,7 +17,7 @@ test:
        only:
          - '**\*UKPO_2_TESTS.dll'
          
-    vstest.console /logger:Appveyor Debug '**\*UKPO_2_TESTS.dll'
+    vstest.console /logger:Appveyor Debug **\*UKPO_2_TESTS.dll
     
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:
