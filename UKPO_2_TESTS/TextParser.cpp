@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include "TextParser.h"
-#include "../../UKPO_2/UKPO_2/Unit.h"
+#include "Unit.h"
 
 TextParser::TextParser (std::string findText, std::string fullText)
 {
