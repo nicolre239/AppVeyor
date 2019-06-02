@@ -1,4 +1,4 @@
-﻿Построение начато 02.06.2019 22:26:18.
+﻿Построение начато 02.06.2019 22:36:11.
      1>Проект "C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\UKPO_2_TESTS\UKPO_2_TESTS.vcxproj" в узле 2 (целевые объекты Rebuild).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\UKPO_2_TESTS.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
@@ -26,4 +26,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.06
+Затраченное время: 00:00:02.16
