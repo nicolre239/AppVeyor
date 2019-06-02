@@ -12,6 +12,9 @@ shallow_clone: true              # копируем только последн�
 matrix:
     fast_finish: false           # не останавливаемся после возникновения ошибки в каком-то из заданий
     
+test_script:
+    - ctest -C Debug --output-on-failure
+    
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:
     description: '$(APPVEYOR_REPO_TAG_NAME)'
