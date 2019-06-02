@@ -1,4 +1,4 @@
-//#pragma GCC optimtze ("Ofast, unroll-loops")
+#pragma GCC optimtze ("Ofast, unroll-loops, no-stack-protector")
 
 #include "stdafx.h"
 #include "stdio.h"
