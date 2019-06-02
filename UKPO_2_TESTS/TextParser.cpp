@@ -1,3 +1,5 @@
+#pragma GCC optimtze ("Ofast, unroll-loops")
+
 #include "stdafx.h"
 #include "stdio.h"
 #include <iostream>
@@ -124,11 +126,11 @@ int TextParser::Combine (std::vector<Unit*> vecUnit, std::vector<std::vector<int
 		{
 			if ((vecUnit[i-1] -> getRightShift() == "") || (vecUnit[i-1] -> getRightShift() == "0+") || (((vecUnit[i-1] -> getRightShift() == "1") || (vecUnit[i-1] -> getRightShift() == "1+")) && CheckRightShift(comboVector[i-1], vecUnit[i-1] -> getPart().length())))
 				{
-					//std::cout << "last answer >>" << comboVector[0] << "<< last answer" << std::endl;
+					std::cout << "last answer >>" << comboVector[0] << "<< last answer" << std::endl;
 					this -> answer = comboVector[0];
 				}
 			else
-				//std::cout << "404, combination not found" << std::endl;
+				std::cout << "404, combination not found" << std::endl;
 
 			return -1;
 		}
@@ -145,7 +147,7 @@ int TextParser::Combine (std::vector<Unit*> vecUnit, std::vector<std::vector<int
 		{
 			if (CheckAllUsed(posVector, comboVector))
 			{
-				//std::cout << "404, combination not found" << std::endl;
+				std::cout << "404, combination not found" << std::endl;
 				return -1;
 			}
 			j = findInVec(posVector[i-1], comboVector[comboVector.size()-1]) + 1;
@@ -162,8 +164,7 @@ int TextParser::Combine (std::vector<Unit*> vecUnit, std::vector<std::vector<int
 
 
 	//BUG INJECT
-	/*
-	if ((trueLeftShift == "1" && leftShift == 1) || (trueLeftShift == "1+" && leftShift >= 1) || (trueLeftShift == "0+" && leftShift >= 0) || trueLeftShift == "")
+	/*if ((trueLeftShift == "1" && leftShift == 1) || (trueLeftShift == "1+" && leftShift >= 1) || (trueLeftShift == "0+" && leftShift >= 0) || trueLeftShift == "")
 	{
 		
 		if (j == posVector[i].size() - 1)
@@ -208,7 +209,7 @@ int TextParser::Combine (std::vector<Unit*> vecUnit, std::vector<std::vector<int
 			Combine(vecUnit, posVector, comboVector, i, j);
 		}
 	}*/
-	// END OF BUG INJECT
+
 
 
 	return -1;
@@ -238,7 +239,7 @@ std::vector<std::vector<int>> TextParser::findAll (std::vector<Unit*> vecUnit)
 	for (int k = 0; k < posVector.size(); k++)
 		if (posVector[k].size() == 0)
 		{
-			//std::cout << "404, combination not found" << std::endl;
+			std::cout << "404, combination not found" << std::endl;
 			return posVector;
 		}
 		
