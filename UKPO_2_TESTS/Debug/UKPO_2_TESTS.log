@@ -1,5 +1,5 @@
-﻿Построение начато 02.06.2019 18:52:34.
-     1>Проект "C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\UKPO_2_TESTS\UKPO_2_TESTS.vcxproj" в узле 2 (целевые объекты Rebuild).
+﻿Построение начато 02.06.2019 19:00:10.
+     1>Проект "C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\UKPO_2_TESTS\UKPO_2_TESTS.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\UKPO_2_TESTS.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
          stdafx.cpp
@@ -22,8 +22,8 @@
          Debug\unittest1.obj
             Создается библиотека C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\Debug\UKPO_2_TESTS.lib и объект C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\Debug\UKPO_2_TESTS.exp
          UKPO_2_TESTS.vcxproj -> C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\Debug\UKPO_2_TESTS.dll
-     1>Построение проекта "C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\UKPO_2_TESTS\UKPO_2_TESTS.vcxproj" завершено (целевые объекты Rebuild).
+     1>Построение проекта "C:\Users\Николай\Documents\Visual Studio 2012\Projects\UKPO_2_TESTS\UKPO_2_TESTS\UKPO_2_TESTS.vcxproj" завершено (целевые объекты Build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.35
+Затраченное время: 00:00:02.24

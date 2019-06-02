@@ -7,4 +7,4 @@
 // TODO: Установите ссылки на любые требующиеся дополнительные заголовки в файле STDAFX.H
 // , а не в данном файле
 #include "TextParser.h"
-#include "../../UKPO_2/UKPO_2/Unit.h"
+#include "Unit.h"
