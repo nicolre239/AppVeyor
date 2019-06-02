@@ -218,9 +218,9 @@ namespace UKPO_tests_2
         }
 		TEST_METHOD(MixInRE_W)
         {
-           std::string findString = "sto.igra.togstog.igst.gstog.glstogs.ogigl.asto.igla.tog.kpo1";
-		   std::string textString = "stogigrastogstogaigstogstogiglstogstogiglastogiglastogukpostogigrastogstogaigstogstogiglstogstogiglastogiglastogukpo1";
-		   int expected = 58;
+           std::string findString = "s.og.g.as.o.sto.a1.3";
+		   std::string textString = "stogigrastogstogaigstogstogiglstogstogiglastogiglastogukpostogigrastogstoga123";
+		   int expected = 59;
 
 		   TextParser* test = new TextParser(findString, textString);
 		   test -> cutString();
