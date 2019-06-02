@@ -14,8 +14,8 @@ matrix:
     
 test:
     assemblies:
-    only:
-      - '**\*UKPO_2_TESTS.dll'
+       only:
+         - '**\*UKPO_2_TESTS.dll'
     
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:
