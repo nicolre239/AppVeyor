@@ -13,7 +13,7 @@ matrix:
     fast_finish: false           # не останавливаемся после возникновения ошибки в каком-то из заданий
     
 test_script:
-    vstest.console /logger:Appveyor <assembly> UKPO_2_TESTS.dll
+    vstest.console /logger:Appveyor <assembly> ./Debug/UKPO_2_TESTS.dll
     
 deploy:
     # выкладываем tagged-коммиты на GitHub Releases:
