@@ -164,7 +164,7 @@ int TextParser::Combine (std::vector<Unit*> vecUnit, std::vector<std::vector<int
 
 
 	//BUG INJECT
-	/*if ((trueLeftShift == "1" && leftShift == 1) || (trueLeftShift == "1+" && leftShift >= 1) || (trueLeftShift == "0+" && leftShift >= 0) || trueLeftShift == "")
+	if ((trueLeftShift == "1" && leftShift == 1) || (trueLeftShift == "1+" && leftShift >= 1) || (trueLeftShift == "0+" && leftShift >= 0) || trueLeftShift == "")
 	{
 		
 		if (j == posVector[i].size() - 1)
@@ -208,7 +208,7 @@ int TextParser::Combine (std::vector<Unit*> vecUnit, std::vector<std::vector<int
 			j = 0;
 			Combine(vecUnit, posVector, comboVector, i, j);
 		}
-	}*/
+	}
 
 
 
